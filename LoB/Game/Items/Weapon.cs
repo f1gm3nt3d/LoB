@@ -10,6 +10,5 @@ namespace New_Dawn.Game
     {
         public int MinDamage { get; set; }
         public int MaxDamage { get; set; }
-        public List<Effect> Effects { get; set; }
     }
 }

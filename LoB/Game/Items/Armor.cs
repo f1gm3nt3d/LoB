@@ -10,6 +10,5 @@ namespace New_Dawn.Game
     {
         public int ArmorClass { get; set; }
         public int ArmorLevel { get; set; }
-        public List<Effect> Effects { get; set; }
     }
 }
