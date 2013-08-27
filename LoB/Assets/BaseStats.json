@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "Brawn",
+    "Description": "Evil smashing, monster slaying, loot hauling potential and junk.",
+    "LongDescription": null,
+    "Value": 1
+  },
+  {
+    "Name": "Smarts",
+    "Description": "The jelly in your braincase ain't there for nothing.",
+    "LongDescription": null,
+    "Value": 1
+  },
+  {
+    "Name": "Savvy",
+    "Description": "Sometimes, it's not WHAT you know but how you apply it.",
+    "LongDescription": null,
+    "Value": 1
+  },
+  {
+    "Name": "Hustle",
+    "Description": "Rustling the jimmies with these acts of fleet!",
+    "LongDescription": null,
+    "Value": 1
+  },
+  {
+    "Name": "Dazzle",
+    "Description": "Some peeps got it some peeps don't.",
+    "LongDescription": null,
+    "Value": 1
+  },
+  {
+    "Name": "Kismet",
+    "Description": "Sometimes it's luck. Sometimes it's skill. Mostly though, it's luck.",
+    "LongDescription": null,
+    "Value": 1
+  }
+]

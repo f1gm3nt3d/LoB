@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Main</Name>
+  <Text>(&#x1B;[4F&#x1B;[7)ight!
+(&#x1B;[$Q&#x1B;[7)uit!
+</Text>
+  <Commands>
+    <Command>
+      <CommandString>F</CommandString>
+      <Target>Arena</Target>
+    </Command>
+    <Command>
+      <CommandString>Q</CommandString>
+      <CommandToExecute>Quit</CommandToExecute>
+    </Command>
+  </Commands>
+  <Prompt>Enter your choice: </Prompt>
+</Menu>

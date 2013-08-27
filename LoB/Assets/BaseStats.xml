@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfStat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Stat>
+    <Name>Brawn</Name>
+    <Description>Do you even lift brah?</Description>
+    <Value>Average</Value>
+  </Stat>
+  <Stat>
+    <Name>Smarts</Name>
+    <Description>This jelly in my braincase isn't here for nothing.</Description>
+    <Value>Average</Value>
+  </Stat>
+  <Stat>
+    <Name>Savvy</Name>
+    <Description>Sometimes, it's not WHAT you know but how you apply it.</Description>
+    <Value>Average</Value>
+  </Stat>
+  <Stat>
+    <Name>Hustle</Name>
+    <Description>You call that a draw?</Description>
+    <Value>Average</Value>
+  </Stat>
+  <Stat>
+    <Name>Dazzle</Name>
+    <Description>Eh, pick your jaw up off the floor.</Description>
+    <Value>Average</Value>
+  </Stat>
+  <Stat>
+    <Name>Kismet</Name>
+    <Description>Just because I keep winning doesn't mean I cheat!</Description>
+    <Value>Average</Value>
+  </Stat>
+</ArrayOfStat>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Town</Name>
+  <Special></Special>
+  <Text>                `@Evervale - Town Square
+`4. +-. +-. +-. +-. +-. +-. +-. +-. +-. +-. +-. +-. +-. +-. +-. +-. +-. +-. +-. +
+`-' `-' `-' `-' `-' `-' `-' `-' `-' `-' `-' `-' `-' `-' `-' `-' `-' `-' `-' `-'`2
+The town of Evervale is alive with the activities of residents. It is
+difficult to navigate the streets.
+
+    `#(E)`5xplore the forest
+    `#(V)`5isit the `!"Three Nosed Dog"
+    `#(B)`5browse `!"Morgath's Weapons and implements of violent Death"
+    `#(L)`5look in `!"Worlibund's Magical Items+ curses and other witchcraftery"
+    `#(N)`5ap under Odin's Oak with the other dregs in the town square.
+    `#(C)`5heck the town posting board.
+    `#(T)`5rain with a partner at `!"Gorban's Gym"
+
+</Text>
+  <Commands>
+    <Command>
+      <CommandString>E</CommandString>
+      <Target>Forest.xml</Target>
+    </Command>
+    <Command>
+      <CommandString>V</CommandString>
+      <Target>ThreeNosedDog.xml</Target>
+    </Command>
+    <Command>
+      <CommandString>B</CommandString>
+      <Target>Morgoths.xml</Target>
+    </Command>
+    <Command>
+      <CommandString>L</CommandString>
+      <Target>Worlibund.xml</Target>
+    </Command>
+    <Command>
+      <CommandString>T</CommandString>
+      <Target>Gorbans.xml</Target>
+    </Command>
+    <Command>
+      <CommandString>N</CommandString>
+      <CommandToExecute>Quit</CommandToExecute>
+    </Command>
+  </Commands>
+  <Prompt>	`#So what would you like to do?</Prompt>
+</Menu>

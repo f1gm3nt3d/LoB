@@ -1,0 +1,48 @@
+﻿<?xml version="1.0"?>
+<Menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Town</Name>
+  <Special />
+  <Text>
+`6
+ ▐████▄    ███████  ██     ███████ ██      ██ ████████ ██   ██ ██   ██ ████████
+ ▐█████▄  █████████ ██     ██████▌ ███     ██    ██    ██   ██ ██   ██    ██
+ ▐█ ████  ██     ██ ██     ██      █████   ██    ██    ██   ██ ██   ██    ██
+ ▐█ ████  ██     ██ ██     ██      ██ ██   ██    ██    ██   ██ ██   ██    ██
+ ▐████▀   █████████ ██     ██      ██  ██  ██    ██    ██▄▄▄██ ██   ██    ██
+ ▐████▄   █████████ ██     ██████▌ ██  ██  ██    ██    ███████ ██   ██    ██
+ ▐█  ███▄ ██     ██ ██     ██      ██   ██ ██    ██    ██   ██ ██   ██    ██
+ ▐█   ███ ██     ██ ██     ██      ██   ██ ██    ██    ██   ██ ██   ██    ██
+ ▐█  ████ ██     ██ ██     ██      ██    ████    ██    ██   ██ ██   ██    ██
+ ▐██████▀ ██     ██ ██████ ██████▌ ██     ███    ██    ██   ██ ██   ██    ██
+ ▐█████▀  ██     ██ ██████ ███████ ██      ██    ██    ██   ██ ▀▀███▀▀    ██`$
+
+`3      .-----------------------------------------------------------------.
+`3     /  .-.       `#(B)`5e born into the world.`3                         .-.  \
+`3    |  /   \      `#(A)`5wake from slumber.`3                            /   \  |
+`3    | |\_.  |                                                     |    /| |
+`3    |\|  | /|     `#(D)`5rift back into emptiness.`3                    |\  | |/|
+`3    | `---' |                                                     | `---' |
+`3    |       |                                                    `3 |       |
+`3    |       |-----------------------------------------------------|       |
+    \       |                                                     |       /
+     \     /                                                       \     /
+      `---'                                                         `---'`.
+  </Text>
+  <Commands>
+    <Command>
+      <CommandString>B</CommandString>
+      <CommandToExecute>NewCharacter</CommandToExecute>
+    </Command>
+    <Command>
+      <CommandString>A</CommandString>
+      <CommandToExecute>LoadCharacter</CommandToExecute>
+    </Command>
+    <Command>
+      <CommandString>D</CommandString>
+      <Target>QuitGame</Target>
+    </Command>
+  </Commands>
+  <Prompt>`#You have a choice to make:`. </Prompt>
+  <PromptTop>18</PromptTop>
+  <PromptLeft>18</PromptLeft>
+</Menu>

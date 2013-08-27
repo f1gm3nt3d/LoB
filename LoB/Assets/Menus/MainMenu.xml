@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Text>`6
+ ▐████▄    ███████  ██     ███████ ██      ██ ████████ ██   ██ ██   ██ ████████
+ ▐█████▄  █████████ ██     ██████▌ ███     ██    ██    ██   ██ ██   ██    ██
+ ▐█ ████  ██     ██ ██     ██      █████   ██    ██    ██   ██ ██   ██    ██
+ ▐█ ████  ██     ██ ██     ██      ██ ██   ██    ██    ██   ██ ██   ██    ██
+ ▐████▀   █████████ ██     ██      ██  ██  ██    ██    ██▄▄▄██ ██   ██    ██
+ ▐████▄   █████████ ██     ██████▌ ██  ██  ██    ██    ███████ ██   ██    ██
+ ▐█  ███▄ ██     ██ ██     ██      ██   ██ ██    ██    ██   ██ ██   ██    ██
+ ▐█   ███ ██     ██ ██     ██      ██   ██ ██    ██    ██   ██ ██   ██    ██
+ ▐█  ████ ██     ██ ██     ██      ██    ████    ██    ██   ██ ██   ██    ██
+ ▐██████▀ ██     ██ ██████ ██████▌ ██     ███    ██    ██   ██ ██   ██    ██
+ ▐█████▀  ██     ██ ██████ ███████ ██      ██    ██    ██   ██ ▀▀███▀▀    ██`$
+
+`3      .-----------------------------------------------------------------.
+`3     /  .-.       `#(B)`5e born into the world.`3                         .-.  \
+`3    |  /   \      `#(A)`5wake from slumber.`3                            /   \  |
+`3    | |\_.  |                                                     |    /| |
+`3    |\|  | /|     `#(D)`5rift back into emptiness.`3                    |\  | |/|
+`3    | `---' |                                                     | `---' |
+`3    |       |                                                    `3 |       |
+`3    |       |-----------------------------------------------------|       |
+    \       |                                                     |       /
+     \     /                                                       \     /
+      `---'                                                         `---'`.</Text>
+  <Commands>
+    <item>
+      <key>
+        <string>b</string>
+      </key>
+      <value>
+        <Command>
+          <CmdType>Command</CmdType>
+          <Target>CreateCharacter</Target>
+        </Command>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>a</string>
+      </key>
+      <value>
+        <Command>
+          <CmdType>Command</CmdType>
+          <Target>Continue</Target>
+        </Command>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>d</string>
+      </key>
+      <value>
+        <Command>
+          <CmdType>Command</CmdType>
+          <Target>QuiteGame</Target>
+        </Command>
+      </value>
+    </item>
+  </Commands>
+  <Prompt>`#You have a choice to make:`. </Prompt>
+  <PromptTop>18</PromptTop>
+  <PromptLeft>18</PromptLeft>
+</Menu>
